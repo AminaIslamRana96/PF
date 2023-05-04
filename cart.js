@@ -1,4 +1,4 @@
-// open cart modal
+
 const cart = document.querySelector('#cart');
 const cartModalOverlay = document.querySelector('.cart-modal-overlay');
 
@@ -9,9 +9,7 @@ cart.addEventListener('click', () => {
     cartModalOverlay.style.transform = 'translateX(-200%)';
   }
 })
-// end of open cart modal
 
-// close cart modal
 const closeBtn = document.querySelector ('#close-btn');
 
 closeBtn.addEventListener('click', () => {
@@ -139,6 +137,3 @@ function purchaseBtnClicked () {
  }
   updateCartPrice()
 }
-// end of purchase items
-
-//alert user if cart is empty

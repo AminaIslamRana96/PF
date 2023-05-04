@@ -589,7 +589,7 @@
     font-size: 1.2rem
   }
   
-  .product-price {
+  .p-price {
     padding-top: 1em;
     font-weight: bold;
     font-size: 1.5rem;
@@ -598,9 +598,9 @@
   .cart-modal-overlay {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 20px;
+    width: 50%;
+    height: 50%;
     background-color: rgba(0, 0, 0, .5);
     z-index: 2;
     transform: translateX(-200%);
