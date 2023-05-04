@@ -1,5 +1,6 @@
 document.getElementById("header").innerHTML =
   `<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <!-- navigation -->
 
 <div class="container-fluid navigation-bg">
@@ -68,7 +69,7 @@ document.getElementById("header").innerHTML =
             </div>
           </div>
           <div class="cart-btn">
-          <h6 id="cart" >cart</h6>
+          <i id="cart" class="fas fa-shopping-cart"></i>
             
             <span class ="cart-quantity">0</span>
           </div>

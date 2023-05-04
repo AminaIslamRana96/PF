@@ -154,46 +154,6 @@
   }
   
   
-  /* single product page */
-  .product-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .product-img {
-    width: 45%;
-    height: 450px;
-    background-color: grey;
-    border: 2px solid black;
-    padding: 20px;
-  }
-  
-  .product-info {
-    width: 45%;
-    height: 450px;
-    background-color: grey;
-    border: 2px solid black;
-    margin: 30px;
-    padding: 20px;
-  }
-  
-  .product-title {
-    padding: 25px;
-  }
-  
-  .product-description p {
-    padding-top: 25px;
-  }
-  
-  .product-button {
-    padding-top: 25px;
-  }
-  
-  .product-quantity {
-    padding-top: 25px;
-  }
-  
   /* customer dashboard */
   
   #container {
@@ -258,186 +218,6 @@
     width: 430px;
     height: 20px;
     border-collapse: collapse;
-  }
-  
-  
-  /* cart page */
-  
-  .Head {
-    margin: auto;
-    height: 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f1f8f4;
-  }
-  
-  .Heading {
-    font-size: 30px;
-    font-family: 'Open Sans';
-    font-weight: 800;
-    color: #2F3841;
-    padding-left: 40px;
-  }
-  
-  .Action {
-    font-size: 20px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #E44C4C;
-    cursor: pointer;
-    text-align: right;
-    padding-right: 50px;
-  }
-  
-  .Cart-Items {
-    margin: auto;
-    width: 90%;
-    height: 50%;
-    display: flex;
-    background-color: #f8dfed;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .cart-image-box {
-    width: 5%;
-    text-align: center;
-  }
-  
-  .about {
-    padding-left: 30px;
-    height: 100%;
-    width: 30%;
-  }
-  
-  .title {
-    padding-top: 10px;
-    line-height: 10px;
-    font-size: 32px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #641717;
-  }
-  
-  .subtitle {
-    padding-top: 20px;
-    line-height: 7px;
-    font-size: 18px;
-    font-family: 'Open Sans';
-    font-weight: 250;
-    color: #909090;
-  }
-  
-  .counter {
-    width: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .counter .btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #d9d9d9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: 'Open Sans';
-    font-weight: 900;
-    color: #202020;
-    cursor: pointer;
-  }
-  
-  .count {
-    font-size: 20px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #202020;
-  }
-  
-  .prices {
-    height: 100%;
-    text-align: right;
-    padding-right: 20px;
-  }
-  
-  .amount {
-    padding-top: 20px;
-    font-size: 26px;
-    font-family: 'Open Sans';
-    font-weight: 800;
-    color: #202020;
-  }
-  
-  .save {
-    padding-top: 5px;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #1687d9;
-    cursor: pointer;
-  }
-  
-  .remove {
-    padding-top: 5px;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #E44C4C;
-    cursor: pointer;
-  }
-  
-  .pad {
-    margin-top: 5px;
-  }
-  
-  
-  .total {
-    
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .Subtotal {
-    font-size: 22px;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    color: #202020;
-   
-  }
-  
-  .items {
-    font-size: 16px;
-    font-family: 'Open Sans';
-    font-weight: 500;
-    color: #909090;
-    line-height: 10px;
-   
-  }
-  
-  .total-amount {
-    font-size: 36px;
-    font-family: 'Open Sans';
-    font-weight: 900;
-    color: #202020;
-  }
-  
-  .button {
-    margin-top: 10px;
-    width: 100%;
-    height: 40px;
-    border: none;
-    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #202020;
   }
   
   /* contact us */
@@ -524,7 +304,45 @@
 
 
 
+/* single product page */
+.product-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.p-img {
+  width: 45%;
+  height: 450px;
+  background-color: grey;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.product-info {
+  width: 45%;
+  height: 450px;
+  background-color: grey;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 20px;
+}
+
+.p-title {
+  padding: 25px;
+}
+
+.product-description p {
+  padding-top: 25px;
+}
+
+.product-button {
+  padding-top: 25px;
+}
+
+.product-quantity {
+  padding-top: 25px;
+}
 
   .cart-btn {
     position: relative;
@@ -558,7 +376,7 @@
   }
   
   .card {
-  /*   width: 15rem; */
+    width: 15rem; 
     margin: 1em;
     position: relative;
     overflow: hidden; 
@@ -569,7 +387,7 @@
     transform: translateX(0);
   }
   
-  .product-image {
+  .p-img {
     margin-bottom: 1em
   }
   
@@ -599,9 +417,9 @@
     position: fixed;
     top: 0;
     left: 20px;
-    width: 50%;
-    height: 50%;
-    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(218, 215, 82, 0.5);
     z-index: 2;
     transform: translateX(-200%);
     transition: .5s ease-out;
@@ -610,8 +428,8 @@
   
   .cart-modal {
     height: 100vh;
-    width: 50%;
-    background-color: rgb(50,50,50);
+    width: 70%;
+    background-color: rgb(173, 120, 39);
     float: right;
     overflow: scroll;
     overflow-x: hidden;
