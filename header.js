@@ -12,14 +12,15 @@ document.getElementById("header").innerHTML =
        class="navbar-toggler"
        type="button"
        data-bs-toggle="collapse"
-       data-bs-target="#navbarScroll"
-       aria-controls="navbarScroll"
+       data-bs-target="#navbarToggleExternalContent" 
+       aria-controls="navbarToggleExternalContent"
        aria-expanded="false"
        aria-label="Toggle navigation"
      >
        <span class="navbar-toggler-icon"></span>
      </button>
      <div class="collapse navbar-collapse ml-4" id="navbarScroll">
+     
        <ul
          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
          style="--bs-scroll-height: 100px"
@@ -29,8 +30,14 @@ document.getElementById("header").innerHTML =
              >Home</a
            >
          </li>
-         <li class="nav-item">
+         <li class="nav-item dropdown">
+         
            <a class="nav-link" href="product.html">Products</a>
+           <div class="dropdown-content">
+           <a href="#">Eyes</a>
+           <a href="#">Face</a>
+           <a href="#">Lips</a>
+         </div>
          </li>
          <li class="nav-item">
            <a class="nav-link" href="AboutUs.html">About Us</a>
@@ -38,19 +45,16 @@ document.getElementById("header").innerHTML =
          <li class="nav-item">
            <a class="nav-link" href="contact.html">Contact</a>
          </li>
-         <li class="nav-item">
-         
-           
-         </li>
+    
        </ul>
-       <form class="d-flex">
+       <form class="d-flex align-self">
          <input
            class="form-control me-2"
            type="search"
            placeholder="Search Product"
            aria-label="Search"
          />
-         <button class="btn btn-color btn-outline-dark" type="submit">
+         <button class="btn btn-color btn-outline-dark " type="submit">
            Search
          </button>
 

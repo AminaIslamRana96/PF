@@ -10,6 +10,41 @@
   
   }
   
+/* menu */
+
+
+/* dropdown */
+
+li a:hover, .dropdown:hover {
+  background-color: rgb(231, 191, 221);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
   .navigation-bg {
     background-color: #EFD7E5;
   }
@@ -17,6 +52,7 @@
   .nav-item .nav-link {
     color: black !important;
   }
+
   
   /* home page carousel */
   
@@ -157,12 +193,11 @@
   
   .cart-quantity {
     color: white;
-    background-color: red;
-    padding: .2em .3em;
+    background-color: rgb(231, 122, 122);
+    padding: .2em .2em;
     position: absolute;
     margin: .8em 7.5em 0 0;
-    right: 0;
-    border: solid 2px red;
+    border: solid 2px rgb(212, 61, 61);
     border-radius: 15px;
     font-weight: bolder;
   }
