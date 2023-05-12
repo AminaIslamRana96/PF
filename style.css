@@ -3,6 +3,24 @@
   }
   
   /* navigation */
+  .navbar{
+    border-bottom:1px solid black;
+}
+
+/* navbar-toggler {
+  color: #000;
+  float: right !important; 
+} */
+
+/* .navbar-nav > li > a{
+    
+    font-size:16px !important;
+    font-weight:bold !important;
+    display: block !important;
+    
+ } */
+
+
   /* global button color */
   .btn-color {
     background-color: #FAD7DC;
