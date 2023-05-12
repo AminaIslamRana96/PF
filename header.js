@@ -34,7 +34,7 @@ document.getElementById("header").innerHTML =
            <a class="nav-link" href="contact.html">Contact</a>
          </li>
        </ul>
-       </div>
+       
        <form class="d-flex align-self">
          <input
            class="form-control me-2"
@@ -47,6 +47,7 @@ document.getElementById("header").innerHTML =
          </button>
         
        </form>
+       </div>
        <div class="cart-modal-overlay">
        <div class="cart-modal">
          <i id="close-btn" class="fas fa-times"></i>
